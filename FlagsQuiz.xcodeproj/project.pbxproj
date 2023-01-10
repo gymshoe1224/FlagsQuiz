@@ -19,6 +19,8 @@
 		26D0CD16296DBB7300AE17A4 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CD15296DBB7300AE17A4 /* ProgressBar.swift */; };
 		26D0CD18296DBCA700AE17A4 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CD17296DBCA700AE17A4 /* AnswerRow.swift */; };
 		26D0CD1A296DBE9400AE17A4 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CD19296DBE9400AE17A4 /* QuestionView.swift */; };
+		26D0CD1C296DC08B00AE17A4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CD1B296DC08B00AE17A4 /* Data.swift */; };
+		26D0CD1E296DC29100AE17A4 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0CD1D296DC29100AE17A4 /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		26D0CD15296DBB7300AE17A4 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		26D0CD17296DBCA700AE17A4 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		26D0CD19296DBE9400AE17A4 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		26D0CD1B296DC08B00AE17A4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		26D0CD1D296DC29100AE17A4 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				26D0CD11296C71F600AE17A4 /* Question.swift */,
+				26D0CD1B296DC08B00AE17A4 /* Data.swift */,
+				26D0CD1D296DC29100AE17A4 /* QuizManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,9 +306,11 @@
 				26D0CD12296C71F600AE17A4 /* Question.swift in Sources */,
 				26D0CCE7296C6EF100AE17A4 /* ContentView.swift in Sources */,
 				26D0CD1A296DBE9400AE17A4 /* QuestionView.swift in Sources */,
+				26D0CD1E296DC29100AE17A4 /* QuizManager.swift in Sources */,
 				26D0CD16296DBB7300AE17A4 /* ProgressBar.swift in Sources */,
 				26D0CD18296DBCA700AE17A4 /* AnswerRow.swift in Sources */,
 				26D0CCE5296C6EF100AE17A4 /* FlagsQuizApp.swift in Sources */,
+				26D0CD1C296DC08B00AE17A4 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
