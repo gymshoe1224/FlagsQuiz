@@ -27,7 +27,7 @@ class QuizManager: ObservableObject {
         index = 0
         score = 0
         progress = 0.0
-        playingGame = false
+        playingGame = true
         goToNextQuestion()
     }
     
@@ -41,7 +41,7 @@ class QuizManager: ObservableObject {
             index += 1
         }
         else {
-            playingGame = true
+            playingGame = false
         }
     }
     
