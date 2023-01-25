@@ -14,7 +14,7 @@ struct Data {
         for i in 0..<countries.count {
             var falseCountries = countries
             falseCountries.remove(at: falseCountries.firstIndex(of: countries[i])!)
-            let threeFalseCountries = falseCountries.prefix(3)
+            let threeFalseCountries = falseCountries.shuffled().prefix(3)
             questions.append(
                 Question(
                     correctAnswer:
